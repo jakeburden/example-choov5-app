@@ -1,0 +1,24 @@
+{
+  "name": "example-choov5-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > bundle.js",
+    "test": "tape test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "choo": "^5.0.0-5",
+    "split2": "^2.1.1",
+    "spok": "^0.7.0",
+    "through2": "^2.0.3",
+    "websocket-stream": "^3.3.3"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
